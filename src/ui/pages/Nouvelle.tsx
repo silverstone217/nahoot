@@ -101,7 +101,6 @@ const Nouvelle = () => {
             id="description"
             value={description}
             onChange={(e) => setDescription(e.target.value)}
-            required
             placeholder="ex: Les élèves de Math 2em semestre 2024 devront faire des exercices de français et de maths."
             maxLength={600}
             autoCapitalize="sentences"
