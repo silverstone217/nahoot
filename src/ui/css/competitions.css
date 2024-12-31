@@ -1,0 +1,72 @@
+.admin-compet {
+  display: flex;
+  gap: 30px;
+  flex-direction: column;
+}
+
+.admin-compet .admin-compet-top {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  max-width: 60%;
+}
+.admin-compet .admin-compet-top-p {
+  font-size: 14px;
+  color: gray;
+  text-wrap: balance;
+}
+
+/* Table.css */
+.table-container {
+  overflow-x: auto;
+}
+
+.data-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  font-size: 14px;
+  text-transform: capitalize;
+}
+
+.data-table th {
+  border: 1px solid gray;
+  padding: 8px;
+  text-align: center;
+}
+.data-table td {
+  padding: 10px;
+  text-align: center;
+  border: none; /* Pas de bordure */
+}
+.data-table tr:nth-child(even) td {
+  background-color: gainsboro; /* Couleur gris clair */
+}
+
+.data-table th {
+  background-color: dimgray; /* Couleur d'arrière-plan pour l'en-tête */
+  color: white; /* Couleur du texte pour l'en-tête */
+}
+
+.data-table tr:hover {
+  background-color: #f1f1f1; /* Couleur d'arrière-plan au survol */
+}
+
+/* Styles pour le modal */
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5); /* Fond semi-transparent */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background-color: white; /* Fond blanc pour le contenu du modal */
+  padding: 20px;
+  border-radius: 5px;
+}

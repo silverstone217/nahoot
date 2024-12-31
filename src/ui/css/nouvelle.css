@@ -1,0 +1,76 @@
+.new-main-admin {
+  display: flex;
+  gap: 30px;
+  flex-direction: column;
+}
+
+.new-main-admin > div {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  max-width: 60%;
+}
+.new-main-admin > div > p {
+  font-size: 14px;
+  color: gray;
+}
+
+.new-main-admin > form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.new-main-admin > form > div {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.new-main-admin .input-group > label {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.new-main-admin .input-group > input {
+  width: 100%;
+  font-size: 14px;
+  padding: 10px;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid #ccc;
+}
+.new-main-admin .input-group > textarea {
+  width: 100%;
+  font-size: 14px;
+  padding: 10px;
+  border-radius: 5px;
+  min-height: 100px;
+  resize: vertical;
+  outline: none;
+  border: 1px solid #ccc;
+}
+
+.new-main-admin .btn-submit {
+  background-color: var(--primary);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.5s ease-in-out;
+  margin-top: 10px;
+  text-align: center;
+  font-weight: 600;
+  letter-spacing: 1px;
+  font-size: 14px;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+  outline: none;
+  &:hover {
+    background-color: transparent;
+    color: var(--primary);
+    border: 2px solid var(--primary);
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.24);
+    transition: background-color 0.5s ease-in-out;
+  }
+}
